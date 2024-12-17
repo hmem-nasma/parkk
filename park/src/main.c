@@ -41,15 +41,15 @@ main (int argc, char *argv[])
    * (except popup menus), just so that you see something after building
    * the project. Delete any components that you don't want shown initially.
    */
-  windowLogin = create_windowLogin ();
+   windowLogin = create_windowLogin ();
   gtk_widget_show (windowLogin);
-  /*windowInscription = create_windowInscription ();
+/* windowInscription = create_windowInscription ();
   gtk_widget_show (windowInscription);
   windowMenu = create_windowMenu ();
   gtk_widget_show (windowMenu);
   windowGestionParking = create_windowGestionParking ();
   gtk_widget_show (windowGestionParking);
-  windowGestionReservation = create_windowGestionReservation ();
+  /*windowGestionReservation = create_windowGestionReservation ();
   gtk_widget_show (windowGestionReservation);
   windowGestionCitoyen = create_windowGestionCitoyen ();
   gtk_widget_show (windowGestionCitoyen);

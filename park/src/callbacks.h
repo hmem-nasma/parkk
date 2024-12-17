@@ -35,3 +35,54 @@ on_buttonGestionReclamation_clicked    (GtkWidget *objet_graphique, gpointer use
 
 void
 on_buttonQuitterMenu_clicked           (GtkWidget *objet_graphique, gpointer user_data);
+
+void
+on_buttonAjouterParking_clicked        (GtkWidget *objet_graphique, gpointer user_data);
+
+void
+on_buttonMenuPJ_clicked                (GtkWidget *objet_graphique, gpointer user_data);
+
+void
+on_buttonModifierParking_clicked       (GtkWidget *objet_graphique, gpointer user_data);
+
+void
+on_buttonRecupererPM_clicked           (GtkWidget *objet_graphique, gpointer user_data);
+
+void
+on_buttonMenuPM_clicked                (GtkWidget *objet_graphique, gpointer user_data);
+
+ 
+
+void
+on_buttonMenuPCH_clicked               (GtkWidget *objet_graphique, gpointer user_data);
+
+void
+on_buttonParkingTrier_clicked          (GtkWidget *objet_graphique, gpointer user_data);
+
+void
+on_buttonParkingAvecAgent_clicked      (GtkWidget *objet_graphique, gpointer user_data);
+
+void
+on_buttonParkingSansAgent_clicked      (GtkWidget *objet_graphique, gpointer user_data);
+
+void
+on_buttonActualiserLPS_clicked         (GtkWidget *objet_graphique, gpointer user_data);
+void
+on_buttonSupprimerPS_clicked           (GtkWidget *objet_graphique, gpointer user_data);
+
+ 
+
+void
+on_buttonActualiserAffAg_clicked       (GtkWidget *objet_graphique, gpointer user_data);
+
+void
+on_buttonAffecterAgent_clicked         (GtkWidget *objet_graphique, gpointer user_data);
+
+void
+on_treeview1_row_activated             (GtkTreeView     *treeview, GtkTreePath     *path, GtkTreeViewColumn *column, gpointer         user_data);
+
+void
+on_treeview1_row_activated             (GtkTreeView     *treeview,
+                                        GtkTreePath     *path,
+                                        GtkTreeViewColumn *column,
+                                        gpointer         user_data);
