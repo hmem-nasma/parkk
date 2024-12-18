@@ -1,8 +1,8 @@
-dnl Process this file with autoconf to produce a configure script.
+# Process this file with autoconf to produce a configure script.
 
-AC_INIT(configure.in)
-AM_INIT_AUTOMAKE(park, 0.1)
-AM_CONFIG_HEADER(config.h)
+AC_INIT([parkk], [0.1], [youremail@example.com])
+AM_INIT_AUTOMAKE([foreign])
+AC_CONFIG_HEADERS([config.h])
 AM_MAINTAINER_MODE
 
 AC_ISC_POSIX
@@ -15,11 +15,11 @@ PKG_CHECK_MODULES(PACKAGE, [$pkg_modules])
 AC_SUBST(PACKAGE_CFLAGS)
 AC_SUBST(PACKAGE_LIBS)
 
-GETTEXT_PACKAGE=park
+GETTEXT_PACKAGE=parkk
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package.])
 
-dnl Add the languages which your application supports here.
+# Add the languages your application supports here.
 ALL_LINGUAS=""
 AM_GLIB_GNU_GETTEXT
 
