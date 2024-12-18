@@ -1,4 +1,0 @@
-nourjlassi,123456789,jlassi nour,Citoyen
-jlassi1234,123456,Jlassi Shaima,Citoyen
-nouha123,12345,nouha ,Citoyen
-jlassi111,12345,jlassi,Administrateur

@@ -1,88 +1,68 @@
 #include <gtk/gtk.h>
 
 
- 
+void
+on_button_supprimer_clicked            (GtkButton       *button,
+                                        gpointer         user_data);
 
 void
-on_buttonCreerCompte_clicked           (GtkWidget *objet_graphique, gpointer user_data);
+on_modifier_clicked                    (GtkButton       *button,
+                                        gpointer         user_data);
 
 void
-on_buttonLoginInscrire_clicked         (GtkWidget *objet_graphique, gpointer user_data);
+on_ajouter_clicked                     (GtkButton       *button,
+                                        gpointer         user_data);
 
 void
-on_buttonInscription_clicked           (GtkWidget *objet_graphique, gpointer user_data);
+on_display_reservations                (GtkButton       *button,
+                                        gpointer         user_data);
 
 void
-on_buttonAuthentification_clicked      (GtkWidget *objet_graphique, gpointer user_data);
+on_display_button_clicked              (GtkButton       *button,
+                                        gpointer         user_data);
 
 void
-on_buttonGestionParkihg_clicked        (GtkWidget *objet_graphique, gpointer user_data);
+on_radioAnnule_toggled                 (GtkToggleButton *togglebutton,
+                                        gpointer         user_data);
 
 void
-on_buttonGestionReservation_clicked    (GtkWidget *objet_graphique, gpointer user_data);
+on_radioEnAttente_toggled              (GtkToggleButton *togglebutton,
+                                        gpointer         user_data);
 
 void
-on_buttonGestionService_clicked        (GtkWidget *objet_graphique, gpointer user_data);
+on_radioConfirmer_toggled              (GtkToggleButton *togglebutton,
+                                        gpointer         user_data);
 
 void
-on_buttonGestionAgent_clicked          (GtkWidget *objet_graphique, gpointer user_data);
+on_radioConfirmerModify_toggled        (GtkToggleButton *togglebutton,
+                                        gpointer         user_data);
 
 void
-on_buttonGestionCitoyen_clicked        (GtkWidget *objet_graphique, gpointer user_data);
+on_radioEnAttenteModify_toggled        (GtkToggleButton *togglebutton,
+                                        gpointer         user_data);
 
 void
-on_buttonGestionReclamation_clicked    (GtkWidget *objet_graphique, gpointer user_data);
+on_radioAnnuleModify_toggled           (GtkToggleButton *togglebutton,
+                                        gpointer         user_data);
 
 void
-on_buttonQuitterMenu_clicked           (GtkWidget *objet_graphique, gpointer user_data);
+on_Actualiser_clicked                  (GtkButton       *button,
+                                        gpointer         user_data);
 
 void
-on_buttonAjouterParking_clicked        (GtkWidget *objet_graphique, gpointer user_data);
+on_btn_search_clicked                  (GtkButton       *button,
+                                        gpointer         user_data);
 
 void
-on_buttonMenuPJ_clicked                (GtkWidget *objet_graphique, gpointer user_data);
+on_actualiseparking_clicked            (GtkButton       *button,
+                                        gpointer         user_data);
 
 void
-on_buttonModifierParking_clicked       (GtkWidget *objet_graphique, gpointer user_data);
-
-void
-on_buttonRecupererPM_clicked           (GtkWidget *objet_graphique, gpointer user_data);
-
-void
-on_buttonMenuPM_clicked                (GtkWidget *objet_graphique, gpointer user_data);
-
- 
-
-void
-on_buttonMenuPCH_clicked               (GtkWidget *objet_graphique, gpointer user_data);
-
-void
-on_buttonParkingTrier_clicked          (GtkWidget *objet_graphique, gpointer user_data);
-
-void
-on_buttonParkingAvecAgent_clicked      (GtkWidget *objet_graphique, gpointer user_data);
-
-void
-on_buttonParkingSansAgent_clicked      (GtkWidget *objet_graphique, gpointer user_data);
-
-void
-on_buttonActualiserLPS_clicked         (GtkWidget *objet_graphique, gpointer user_data);
-void
-on_buttonSupprimerPS_clicked           (GtkWidget *objet_graphique, gpointer user_data);
-
- 
-
-void
-on_buttonActualiserAffAg_clicked       (GtkWidget *objet_graphique, gpointer user_data);
-
-void
-on_buttonAffecterAgent_clicked         (GtkWidget *objet_graphique, gpointer user_data);
-
-void
-on_treeview1_row_activated             (GtkTreeView     *treeview, GtkTreePath     *path, GtkTreeViewColumn *column, gpointer         user_data);
-
-void
-on_treeview1_row_activated             (GtkTreeView     *treeview,
+on_treeparcking_row_activated          (GtkTreeView     *treeview,
                                         GtkTreePath     *path,
                                         GtkTreeViewColumn *column,
+                                        gpointer         user_data);
+
+void
+on_btn_affecter_clicked                (GtkButton       *button,
                                         gpointer         user_data);

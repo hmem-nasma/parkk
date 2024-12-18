@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/nour/parkk/park'
+ac_pwd='/home/ubuntu/Desktop/park'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/bin/mkdir -p'
@@ -686,12 +686,12 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]=""
-S["install_sh"]="${SHELL} /home/nour/parkk/park/install-sh"
-S["MAKEINFO"]="${SHELL} /home/nour/parkk/park/missing makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/nour/parkk/park/missing autoheader"
-S["AUTOMAKE"]="${SHELL} /home/nour/parkk/park/missing automake-1.15"
-S["AUTOCONF"]="${SHELL} /home/nour/parkk/park/missing autoconf"
-S["ACLOCAL"]="${SHELL} /home/nour/parkk/park/missing aclocal-1.15"
+S["install_sh"]="${SHELL} /home/ubuntu/Desktop/park/install-sh"
+S["MAKEINFO"]="${SHELL} /home/ubuntu/Desktop/park/missing makeinfo"
+S["AUTOHEADER"]="${SHELL} /home/ubuntu/Desktop/park/missing autoheader"
+S["AUTOMAKE"]="${SHELL} /home/ubuntu/Desktop/park/missing automake-1.15"
+S["AUTOCONF"]="${SHELL} /home/ubuntu/Desktop/park/missing autoconf"
+S["ACLOCAL"]="${SHELL} /home/ubuntu/Desktop/park/missing aclocal-1.15"
 S["VERSION"]="0.1"
 S["PACKAGE"]="park"
 S["CYGPATH_W"]="echo"

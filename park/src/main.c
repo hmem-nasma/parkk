@@ -15,15 +15,18 @@
 int
 main (int argc, char *argv[])
 {
-  GtkWidget *windowLogin;
-  GtkWidget *windowInscription;
-  GtkWidget *windowMenu;
-  GtkWidget *windowGestionParking;
-  GtkWidget *windowGestionReservation;
-  GtkWidget *windowGestionCitoyen;
-  GtkWidget *windowGestionService;
-  GtkWidget *windowGestionAgent;
-  GtkWidget *windowGestionReclamation;
+  GtkWidget *Athentification;
+  GtkWidget *espace_d_admininstration;
+  GtkWidget *espace_citoyen;
+  GtkWidget *Parking;
+  GtkWidget *Agent;
+  GtkWidget *ajouterunservice;
+ GtkWidget *modifierunservice;
+ GtkWidget *supprimerunservice;
+ GtkWidget *consulterunservice;
+  GtkWidget *Citoyen;
+  GtkWidget *reservation;
+  GtkWidget *reclamation;
 
 #ifdef ENABLE_NLS
   bindtextdomain (GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR);
@@ -41,24 +44,30 @@ main (int argc, char *argv[])
    * (except popup menus), just so that you see something after building
    * the project. Delete any components that you don't want shown initially.
    */
-   windowLogin = create_windowLogin ();
-  gtk_widget_show (windowLogin);
-/* windowInscription = create_windowInscription ();
-  gtk_widget_show (windowInscription);
-  windowMenu = create_windowMenu ();
-  gtk_widget_show (windowMenu);
-  windowGestionParking = create_windowGestionParking ();
-  gtk_widget_show (windowGestionParking);
-  /*windowGestionReservation = create_windowGestionReservation ();
-  gtk_widget_show (windowGestionReservation);
-  windowGestionCitoyen = create_windowGestionCitoyen ();
-  gtk_widget_show (windowGestionCitoyen);
-  windowGestionService = create_windowGestionService ();
-  gtk_widget_show (windowGestionService);
-  windowGestionAgent = create_windowGestionAgent ();
-  gtk_widget_show (windowGestionAgent);
-  windowGestionReclamation = create_windowGestionReclamation ();
-  gtk_widget_show (windowGestionReclamation);*/
+  Athentification = create_Athentification ();
+  gtk_widget_show (Athentification);
+  espace_d_admininstration = create_espace_d_admininstration ();
+  gtk_widget_show (espace_d_admininstration);
+  espace_citoyen = create_espace_citoyen ();
+  gtk_widget_show (espace_citoyen);
+  //Parking = create_Parking ();
+  //gtk_widget_show (Parking);
+ajouterunservice = create_Ajouterunservice ();
+  gtk_widget_show (ajouterunservice);
+modifierunservice = create_Modifierunservice ();
+  gtk_widget_show (modifierunservice);
+supprimerunservice = create_Supprimerunservice ();
+  gtk_widget_show (supprimerunservice);
+consulterunservice = create_Consulterunservice ();
+  gtk_widget_show (consulterunservice);
+  Agent = create_Agent ();
+  gtk_widget_show (Agent);
+  Citoyen = create_Citoyen ();
+  gtk_widget_show (Citoyen);
+  reservation = create_reservation ();
+  gtk_widget_show (reservation);
+  reclamation = create_reclamation ();
+  gtk_widget_show (reclamation);
 
   gtk_main ();
   return 0;

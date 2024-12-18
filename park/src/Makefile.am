@@ -12,7 +12,11 @@ park_SOURCES = \
 	support.c support.h \
 	interface.c interface.h \
 	callbacks.c callbacks.h \
-	parking.c parking.h
+        reservation.c reservation.h 
 
 park_LDADD = @PACKAGE_LIBS@ $(INTLLIBS)
+   
+
+
+
 
