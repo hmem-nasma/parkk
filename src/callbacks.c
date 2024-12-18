@@ -1846,4 +1846,73 @@ void on_Affecter_clicked(GtkWidget *objet_graphique, gpointer user_data) {
         remove("TempReservations.txt"); // Supprimer si erreur
     }
 }
+// Placeholder for `on_Actualiser_clicked`
+void on_Actualiser_clicked(GtkButton *button, gpointer user_data) {
+    g_print("Placeholder: Actualiser button clicked.\n");
+}
+
+// Placeholder for `on_btn_search_clicked`
+void on_btn_search_clicked(GtkButton *button, gpointer user_data) {
+    g_print("Placeholder: Search button clicked.\n");
+}
+
+// Placeholder for `on_button_supprimer_clicked`
+void on_button_supprimer_clicked(GtkButton *button, gpointer user_data) {
+    g_print("Placeholder: Supprimer button clicked.\n");
+}
+
+// Placeholder for `on_modifier_clicked`
+void on_modifier_clicked(GtkButton *button, gpointer user_data) {
+    g_print("Placeholder: Modifier button clicked.\n");
+}
+
+// Placeholder for `on_radioConfirmerModify_toggled`
+void on_radioConfirmerModify_toggled(GtkToggleButton *togglebutton, gpointer user_data) {
+    g_print("Placeholder: Radio 'Confirmer Modify' toggled.\n");
+}
+
+// Placeholder for `on_radioAnnuleModify_toggled`
+void on_radioAnnuleModify_toggled(GtkToggleButton *togglebutton, gpointer user_data) {
+    g_print("Placeholder: Radio 'Annule Modify' toggled.\n");
+}
+
+// Placeholder for `on_radioEnAttenteModify_toggled`
+void on_radioEnAttenteModify_toggled(GtkToggleButton *togglebutton, gpointer user_data) {
+    g_print("Placeholder: Radio 'En Attente Modify' toggled.\n");
+}
+
+// Placeholder for `on_ajouter_clicked`
+void on_ajouter_clicked(GtkButton *button, gpointer user_data) {
+    g_print("Placeholder: Ajouter button clicked.\n");
+}
+
+// Placeholder for `on_radioEnAttente_toggled`
+void on_radioEnAttente_toggled(GtkToggleButton *togglebutton, gpointer user_data) {
+    g_print("Placeholder: Radio 'En Attente' toggled.\n");
+}
+
+// Placeholder for `on_radioConfirmer_toggled`
+void on_radioConfirmer_toggled(GtkToggleButton *togglebutton, gpointer user_data) {
+    g_print("Placeholder: Radio 'Confirmer' toggled.\n");
+}
+
+// Placeholder for `on_radioAnnule_toggled`
+void on_radioAnnule_toggled(GtkToggleButton *togglebutton, gpointer user_data) {
+    g_print("Placeholder: Radio 'Annule' toggled.\n");
+}
+
+// Placeholder for `on_treeparcking_row_activated`
+void on_treeparcking_row_activated(GtkTreeView *treeview, GtkTreePath *path, GtkTreeViewColumn *column, gpointer user_data) {
+    g_print("Placeholder: Treeview row activated.\n");
+}
+
+// Placeholder for `on_actualiseparking_clicked`
+void on_actualiseparking_clicked(GtkButton *button, gpointer user_data) {
+    g_print("Placeholder: Actualise Parking button clicked.\n");
+}
+
+// Placeholder for `on_btn_affecter_clicked`
+void on_btn_affecter_clicked(GtkButton *button, gpointer user_data) {
+    g_print("Placeholder: Affecter button clicked.\n");
+}
 
