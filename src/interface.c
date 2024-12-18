@@ -1511,7 +1511,6 @@ create_windowGestionService (void)
   GtkWidget *labelmessageU;
   GtkWidget *label74;
   GtkWidget *fixed13;
-  GtkWidget *label75;
   GtkWidget *comboboxnum;
   GtkWidget *labelsupprimer;
   GtkWidget *button5;
@@ -1519,6 +1518,7 @@ create_windowGestionService (void)
   GtkWidget *hbox25;
   GtkWidget *image24;
   GtkWidget *label76;
+  GtkWidget *label75;
   GtkWidget *label78;
   GtkWidget *fixed14;
   GtkWidget *entry4;
@@ -1894,12 +1894,6 @@ create_windowGestionService (void)
   gtk_widget_show (fixed13);
   gtk_container_add (GTK_CONTAINER (notebook2), fixed13);
 
-  label75 = gtk_label_new (_("N\302\260 Service :"));
-  gtk_widget_show (label75);
-  gtk_fixed_put (GTK_FIXED (fixed13), label75, 40, 80);
-  gtk_widget_set_size_request (label75, 88, 24);
-  gtk_label_set_line_wrap (GTK_LABEL (label75), TRUE);
-
   comboboxnum = gtk_combo_box_entry_new_text ();
   gtk_widget_show (comboboxnum);
   gtk_fixed_put (GTK_FIXED (fixed13), comboboxnum, 128, 80);
@@ -1930,6 +1924,12 @@ create_windowGestionService (void)
   label76 = gtk_label_new_with_mnemonic (_("Supprimer"));
   gtk_widget_show (label76);
   gtk_box_pack_start (GTK_BOX (hbox25), label76, FALSE, FALSE, 0);
+
+  label75 = gtk_label_new (_("Service :"));
+  gtk_widget_show (label75);
+  gtk_fixed_put (GTK_FIXED (fixed13), label75, 40, 80);
+  gtk_widget_set_size_request (label75, 88, 24);
+  gtk_label_set_line_wrap (GTK_LABEL (label75), TRUE);
 
   label78 = gtk_label_new (_("Supprimer"));
   gtk_widget_show (label78);
@@ -2075,7 +2075,6 @@ create_windowGestionService (void)
   GLADE_HOOKUP_OBJECT (windowGestionService, labelmessageU, "labelmessageU");
   GLADE_HOOKUP_OBJECT (windowGestionService, label74, "label74");
   GLADE_HOOKUP_OBJECT (windowGestionService, fixed13, "fixed13");
-  GLADE_HOOKUP_OBJECT (windowGestionService, label75, "label75");
   GLADE_HOOKUP_OBJECT (windowGestionService, comboboxnum, "comboboxnum");
   GLADE_HOOKUP_OBJECT (windowGestionService, labelsupprimer, "labelsupprimer");
   GLADE_HOOKUP_OBJECT (windowGestionService, button5, "button5");
@@ -2083,6 +2082,7 @@ create_windowGestionService (void)
   GLADE_HOOKUP_OBJECT (windowGestionService, hbox25, "hbox25");
   GLADE_HOOKUP_OBJECT (windowGestionService, image24, "image24");
   GLADE_HOOKUP_OBJECT (windowGestionService, label76, "label76");
+  GLADE_HOOKUP_OBJECT (windowGestionService, label75, "label75");
   GLADE_HOOKUP_OBJECT (windowGestionService, label78, "label78");
   GLADE_HOOKUP_OBJECT (windowGestionService, fixed14, "fixed14");
   GLADE_HOOKUP_OBJECT (windowGestionService, entry4, "entry4");
